@@ -14,7 +14,7 @@ int main(){
 	long long seed;
 	scanf("%d%lld%d%d", &n, &seed, &multiplier, &max_diff);
 	int level[n];
-	WorldSeed(level, n, seed,multiplier, max_diff);
+	WorldSeed(level, n, seed, multiplier, max_diff);
 	//Code starting from here
 	
 	return 0;
